@@ -7,4 +7,4 @@
 
 ### For test : 
 - Clone and start script server.py and client.py
-- Цhen the window opens, the image will only appear when any button is clicked
+- When the window opens, the image will only appear when any button is clicked
