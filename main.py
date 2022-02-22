@@ -33,6 +33,5 @@ while True:
     # every sec we take matrix with color code in all points
     ret, frame = cap.read()
     a = pickle.dumps(frame)
-    print(type(a))
     client_sock.sendto(a, ('127.0.0.1', 7071))
     # after convert need
